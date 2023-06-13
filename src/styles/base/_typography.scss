@@ -1,0 +1,112 @@
+@mixin heading1-bold($font-family: 'DM Sans', $font-weight: 700, $font-size: 62px, $line-height: 120%, $letter-spacing: 0.003em) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+}
+
+@mixin heading1-regular($font-family: 'DM Sans', $font-weight: 400, $font-size: 62px, $line-height: 120%, $letter-spacing: 0.003em) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+}
+
+@mixin heading2-bold($font-family: 'DM Sans', $font-weight: 700, $font-size: 62px, $line-height: 120%, $letter-spacing: 0.005em) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+}
+
+@mixin heading2-regular($font-family: 'DM Sans', $font-weight: 400, $font-size: 48px, $line-height: 120%, $letter-spacing: 0.005em) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+}
+
+
+@mixin heading3-bold($font-family: 'DM Sans', $font-weight: 700, $font-size: 62px, $line-height: 120%, $letter-spacing: 0.005em) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+}
+
+@mixin heading3-regular($font-family: 'DM Sans', $font-weight: 400, $font-size: 39px, $line-height: 120%, $letter-spacing: 0.005em) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+}
+
+
+
+
+@mixin heading4-bold($font-family: 'DM Sans', $font-weight: 700, $font-size: 62px, $line-height: 120%, $letter-spacing: 0.005em) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+}
+
+@mixin heading4-regular($font-family: 'DM Sans', $font-weight: 400, $font-size: 31px, $line-height: 120%, $letter-spacing: 0.005em) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+}
+
+
+@mixin heading5-bold($font-family: 'DM Sans', $font-weight: 700, $font-size: 62px, $line-height: 120%, $letter-spacing: 0.005em) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+}
+
+@mixin heading5-regular($font-family: 'DM Sans', $font-weight: 400, $font-size: 24px, $line-height: 120%, $letter-spacing: 0.005em) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+}
+
+@mixin heading6-bold($font-family: 'DM Sans', $font-weight: 700, $font-size: 62px, $line-height: 120%, $letter-spacing: 0.005em) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+}
+
+@mixin heading6-regular($font-family: 'DM Sans', $font-weight: 400, $font-size: 16px, $line-height: 120%, $letter-spacing: 0.005em) {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+}
