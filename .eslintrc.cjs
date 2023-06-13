@@ -1,15 +1,45 @@
 module.exports = {
-  env: { browser: true, es2020: true },
-  extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:react/jsx-runtime',
-    'plugin:react-hooks/recommended',
-  ],
-  parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
-  settings: { react: { version: '18.2' } },
-  plugins: ['react-refresh'],
-  rules: {
-    'react-refresh/only-export-components': 'warn',
+  plugins: ['prettier', 'react-hooks'],
+  env: {
+    browser: true,
+    es2021: true,
   },
-}
+  extends: 'airbnb',
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
+  rules: {
+    'react/function-component-definition': 'off',
+    'no-unused-vars': 'off',
+    'prettier/prettier': 'error',
+    'react/react-in-jsx-scope': 'off',
+    'react-hooks/rules-of-hooks': 'error',
+    'no-console': 'off',
+    'react/prop-types': 0,
+    'max-len': ['error', { code: 250 }],
+    'operator-linebreak': 'off',
+    'import/prefer-default-export': 'off',
+    'react/jsx-one-expression-per-line': 'off',
+    'react/jsx-no-useless-fragment': 'off',
+    'object-curly-newline': 'off',
+    'no-unused-expressions': 'off',
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/no-static-element-interactions': 'off',
+    'jsx-a11y/no-noninteractive-element-interactions': 'off',
+    'implicit-arrow-linebreak': 'off',
+    'jsx-a11y/no-autofocus': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
+    'function-paren-newline': 'off',
+    'react-hooks/exhaustive-deps': 'off',
+    indent: 'off',
+    radix: 'off',
+    'no-new': 'off',
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: true,
+      },
+    ],
+  },
+};

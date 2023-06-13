@@ -1,3 +1,7 @@
+body>* {
+    margin: 0;
+}
+
 // Base Color
 $base-black: #0000;
 $base-white: #FFFF;
@@ -7,8 +11,8 @@ $body1-color: #515151;
 $body2-color: #9A9AB0;
 
 // Text Link Color
-$purple: #F3692E;
-$white: #FFFF;
+$text-link-color-purple: #F3692E;
+$text-link-color-white: #FFFF;
 
 // Primary Color
 $primary-85: #001646;
